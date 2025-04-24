@@ -15,6 +15,8 @@ function sortList(items) {
 
 const ul = document.querySelector('ul');
 
+sortList(list);
+
 list.forEach((li) => ul.appendChild(li));
 
 function getEmployees(items) {
@@ -26,5 +28,4 @@ function getEmployees(items) {
   }));
 }
 
-sortList(list);
 getEmployees(list);
